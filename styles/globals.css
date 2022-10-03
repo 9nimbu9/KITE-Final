@@ -1,0 +1,22 @@
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+}
+.catData{
+    padding: 1.5%;
+    margin: 1%;
+    border: 3px solid #E94560;
+    border-radius: 10px;
+}
+.catData:hover{
+    background-color: #E94560;
+}
+.card{
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid red;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+}
