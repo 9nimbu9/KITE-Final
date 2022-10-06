@@ -1,13 +1,13 @@
 import React, { useState } from "react"
 import Link from "next/link"
 import Axios from 'axios'
-import { withRouter } from 'next/router'
+import { useRouter } from 'next/router'
 import { useEffect } from "react";
 import Card from "../components/Card";
 
 
 function Search(){
-    const router = withRouter();
+    const router = useRouter();
     const data1 = router.query;
     console.log(data1)
 
